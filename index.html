@@ -1,0 +1,12 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<div id="editor">
+  <h4>HTML編集</h4>
+  <textarea v-model="content">
+    
+  </textarea>
+  <h4>プレビュー</h4>
+  <div v-preview="content" class="preview">
+  </div>
+</div> 
+
+<script type="text/javascript" src=preview.js></script>
